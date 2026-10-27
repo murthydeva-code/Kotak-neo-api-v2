@@ -58,7 +58,7 @@ from neo_api_client import NeoAPI
 # To get consumer key, login to kotak NEO app or web -> invest tab -> trade api card. Generate application.
 # with default application, you will have a copyable token. Pass this token in consumer_key.
 
-client = NeoAPI(environment='prod', access_token=None, neo_fin_key=None, consumer_key='YOUR_TOKEN')
+client = NeoAPI(environment='prod', access_token=None, neo_fin_key=None, consumer_key='f9f90b0b-ba3b-4ba5-a958-c505f65ed304')
 
 
 # Login using TOTP
